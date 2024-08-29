@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#Container{
+    box-sizing: border-box;
+    border: 10px solid brown;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    width: 600px;
+    height: 600px;
+    
+}
+
+.paper:hover{
+    background-color: black;
+}
