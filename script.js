@@ -28,7 +28,6 @@ function createDiv(squares) {
 function deleteDiv() {
    const parent = document.getElementById("Container")
    while (parent.firstChild) parent.removeChild(parent.firstChild)
-
 }
 
 
