@@ -27,7 +27,15 @@ function createDiv(squares) {
             document.querySelector("#pen").addEventListener("click", () => {
               div.addEventListener("mouseover", () => {
                 div.style.background = "black"
+
               })
+        })
+
+            document.querySelector("#reset").addEventListener("click", () => {
+                div.style.background = "white"
+                div.addEventListener("mouseover", () => {
+              div.style.background = "black"
+          })
         })
 
             div.setAttribute("class","paper")
