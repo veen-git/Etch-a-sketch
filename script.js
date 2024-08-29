@@ -1,13 +1,13 @@
 
 let d = 16;
 createDiv(d);
+
 const button = document.querySelector("button")
 button.addEventListener("click", () => {
   let c = parseInt(prompt("pick a number less than 100"));
   (c > 100)?alert("number too high"): deleteDiv();
   createDiv(c);
 })
-
 
 function createDiv(squares) {
     const divContainer = document.querySelector("#Container")
